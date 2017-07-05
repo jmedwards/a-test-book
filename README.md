@@ -1,16 +1,9 @@
-# This is my first page
+<script>alert('Hello World');</script>
 
-In my awesome book.
+<style>
+    #my-header {
+        background: #333; color: #fff;
+    }
+</style>
 
-| Markdown | HTML | Rendered |
-| -- | -- | -- |
-| `# Some Header` | `<h1>Some Header</h1>` | <h1>Some Header</h1> |
-
-
-
-{% raw %}
-<b>Test</B>
-<script type="text/javascript">
-alert(1);
-</script>
-{% endraw %}
+<h1 id="my-header">Hello World</h1>
